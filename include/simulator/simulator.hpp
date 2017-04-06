@@ -968,6 +968,9 @@ namespace sim
 		int m_family;
 	};
 
+	extern template struct basic_resolver<udp>;
+	extern template struct basic_resolver<tcp>;
+
 	} // ip
 
 	using boost::asio::async_write;
